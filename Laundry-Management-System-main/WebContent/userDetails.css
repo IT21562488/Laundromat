@@ -1,0 +1,107 @@
+
+ @import url('https://fonts.googleapis.com/css?family=Montserrat|Open+Sans|Roboto');
+*{
+ margin:0;
+ padding: 0;
+ outline: 0;
+}
+.filter{
+ position: absolute;
+ left: 0;
+ top: 0;
+ bottom: 0;
+ right: 0;
+ z-index: 1;
+ background: rgb(4, 15, 73);
+ opacity: .7;
+}
+table{
+ position: absolute;
+ z-index: 2;
+ left: 50%;
+ top: 50%;
+ transform: translate(-50%,-50%);
+ width: 0%; 
+ border-collapse: collapse;
+ border-spacing: 0;
+box-shadow: 5px 10px 8px rgb(0, 0, 0);
+ border-radius: 12px 12px 0 0;
+ overflow: hidden;
+
+}
+td , th{
+ padding: 15px 20px;
+ text-align: center;
+ 
+
+}
+th{
+ background-color: #102f8b;
+ color: #fafafa;
+ font-family: 'Open Sans',Sans-serif;
+ font-weight: 200;
+ text-transform: uppercase;
+
+}
+tr{
+ width: 100%;
+ background-color: #fafafa;
+ font-family: 'Montserrat', sans-serif;
+}
+tr:nth-child(even){
+ background-color: #eeeeee;
+}
+#btn1{
+	position: fixed;
+	left:28%;
+	top:65%;
+	border: 1px solid;
+	  
+	}
+#btn1 {
+   
+    border-radius: 15px;
+    outline: 0;
+    padding: 10px;
+    color: white;
+    background-color: #063149;
+    text-align: center;
+    cursor: pointer;
+    margin-top: 10px;
+    width: 140px;
+    font-size: 15px;
+
+}
+#btn1:hover {
+    color: #001F3F;
+    background-color: #fff;
+}	
+
+#btn2{
+	position: fixed;
+	left:55%;
+	top:65%;
+	border: 1px solid;
+	  
+	}
+#btn2 {
+    border-radius: 15px;
+    outline: 0;
+    padding: 10px;
+    color: white;
+    background-color: #063149;
+    text-align: center;
+    cursor: pointer;
+    margin-top: 10px;
+    width: 140px;
+    font-size: 15px;
+
+}
+#btn2:hover {
+    color: #001F3F;
+    background-color: #c0c0c0;
+}	
+	
+	
+	
+	

@@ -1,0 +1,277 @@
+@charset "ISO-8859-1";
+
+#addiv{
+	top: 15px;
+	height: 250px;
+	width: 280px;
+}
+
+#addbut{
+	border-radius: 15px;
+    outline: 0;
+    padding: 10px;
+    color: white;
+    background-color: #063149;
+    text-align: center;
+    cursor: pointer;
+    margin-top: 10px;
+    width: 140px;
+    font-size: 15px;
+}
+#vertical{
+	margin:0;
+	position:absolute;
+	top:50%;
+	-ms-transform:translateY(-50%);
+	transform:translateY(-50%)
+	
+}
+#addbut:hover{
+	background-color: #216291;
+}
+#viewdiv{
+	border-radius: 15px;
+    outline: 0;
+    padding: 10px;
+    color: white;
+    background-color: #063149;
+    text-align: center;
+    cursor: pointer;
+    margin-top: 10px;
+    width: 140px;
+    font-size: 15px;
+}
+
+#body{
+    background-color:rgb(4, 15, 73); 
+     color: #2d2f32; 
+}
+.upper{
+    background-color: rgba(255, 255, 255, 0.507);
+    
+    
+}
+#logo{
+    
+    top: 15px;
+	left: 35px;
+	height: 250px;
+	width: 280px;
+	
+}
+.head {
+	position: absolute;
+	top: 80px;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: rgb(26, 85, 108);
+	font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
+}
+
+
+.image {
+    width: 180px;
+    border-radius: 50% !important;
+}
+
+.register_emp #fname_error
+{
+	
+	margin-top: 5px;
+    width: 495px;
+     height: 20px;
+     font-weight:bold;
+    font-size: 13px;
+    color: #C62828;
+    background-color: rgba(255, 0, 0, 0.1);
+     padding: 5px 8px;
+     border-radius: 3px;
+    border: 1px ;
+    display: none;
+}
+.register_emp #address_error{
+	margin-top: 5px;
+    width: 495px;
+     height: 20px;
+     font-weight:bold;
+    font-size: 13px;
+    color: #C62828;
+    background-color: rgba(255, 0, 0, 0.1);
+     padding: 5px 8px;
+     border-radius: 3px;
+    border: 1px ;
+    display: none;
+}
+.register_emp #uname_error{
+	margin-top: 5px;
+    width: 495px;
+     height: 20px;
+     font-weight:bold;
+    font-size: 13px;
+    color: #C62828;
+    background-color: rgba(255, 0, 0, 0.1);
+     padding: 5px 8px;
+     border-radius: 3px;
+    border: 1px ;
+    display: none;
+}
+.register_emp #pw_null{
+	margin-top: 5px;
+    width: 495px;
+     height: 20px;
+     font-weight:bold;
+    font-size: 13px;
+    color: #C62828;
+    background-color: rgba(255, 0, 0, 0.1);
+     padding: 5px 8px;
+     border-radius: 3px;
+    border: 1px ;
+    display: none;
+}
+.register_emp #pw_length{
+	margin-top: 5px;
+    width: 495px;
+     height: 20px;
+     font-weight:bold;
+    font-size: 13px;
+    color: #C62828;
+    background-color: rgba(255, 0, 0, 0.1);
+     padding: 5px 8px;
+     border-radius: 3px;
+    border: 1px ;
+    display: none;
+}
+
+.register_emp #pwcon_null{
+	margin-top: 5px;
+    width: 495px;
+     height: 20px;
+     font-weight:bold;
+    font-size: 13px;
+    color: #C62828;
+    background-color: rgba(255, 0, 0, 0.1);
+     padding: 5px 8px;
+     border-radius: 3px;
+    border: 1px ;
+    display: none;
+}
+.register_emp #pwcon_match{
+	margin-top: 5px;
+    width: 495px;
+     height: 20px;
+     font-weight:bold;
+    font-size: 13px;
+    color: #C62828;
+    background-color: rgba(255, 0, 0, 0.1);
+     padding: 5px 8px;
+     border-radius: 3px;
+    border: 1px ;
+    display: none;
+}
+.viewEmp #empID_error{
+	margin-top: 5px;
+    width: 495px;
+     height: 20px;
+     font-weight:bold;
+    font-size: 13px;
+    color: #C62828;
+    background-color: rgba(255, 0, 0, 0.1);
+     padding: 5px 8px;
+     border-radius: 3px;
+    border: 1px ;
+    display: none;
+}
+.viewEmp #empID_invalid{
+	margin-top: 5px;
+    width: 495px;
+     height: 20px;
+     font-weight:bold;
+    font-size: 13px;
+    color: #C62828;
+    background-color: rgba(255, 0, 0, 0.1);
+     padding: 5px 8px;
+     border-radius: 3px;
+    border: 1px ;
+    display: none;
+}
+
+
+
+.card {
+    box-shadow: 5px 10px 8px rgb(0, 0, 0);
+    background-color: rgba(253, 253, 255, 0.638);
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 500px;
+    margin: auto;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px;
+}
+
+hr{
+    border: 1px solid rgb(157, 156, 156);
+}
+.card .card-head {
+    font-size: 20px;
+
+}
+
+.card-body label{
+    float: left;
+    margin-left: 25px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.name, .other{
+    display: flex;
+}
+input.gen{
+    display: flex;
+    margin-right: 100px;
+   
+}
+
+.card .button {
+    border-radius: 15px;
+    outline: 0;
+    padding: 10px;
+    color: white;
+    background-color: #063149;
+    text-align: center;
+    cursor: pointer;
+    margin-top: 10px;
+    width: 140px;
+    font-size: 15px;
+
+}
+
+.card .button:hover{
+   
+      background-color: rgb(16, 119, 137);
+      color: #ffffff;
+}
+
+.card input {
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 450px;
+    height: 30px;
+    
+}
+.gen{
+    size: 0ch;
+
+}
+
+
+.name input, .other input{
+    margin-left: 23px;
+    width:210px;
+}
+
+label {
+    font-weight: 500;
+}
+

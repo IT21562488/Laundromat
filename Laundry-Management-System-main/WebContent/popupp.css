@@ -1,0 +1,27 @@
+@charset "ISO-8859-1";
+
+#logocorrect{
+	top: 15px;
+	left: 35px;
+	height: 140px;
+	width: 160px;
+	margin-top: -70px;
+	border-radius: 50%;
+	box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+	
+	
+}
+#successn{
+	width: 100%;
+	margin-top: 50px;
+	padding: 10px 0;
+	background: #00ff00 ;
+	color: #fff;
+	border: 0;
+	outline: none;
+	font-size: 18px;
+	border-radius: 4px;
+	cursor: pointer;
+	box-shadow: 0 5px 5px rgba(0,0,0,0.2);
+	
+}
